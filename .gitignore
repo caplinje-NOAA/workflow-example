@@ -1,0 +1,112 @@
+# Custom
+/_inputs
+/_project00/output/*
+/_project01/outputs/*
+
+# Node.js
+node_modules/
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*$py.class
+venv/
+.venv/
+
+
+# Conda
+/env/
+/envs/
+*.conda
+/conda-env/
+environment.yml.lock
+.conda/
+conda-meta/
+.condarc
+.conda-lock/
+
+# IPython/Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb-meta
+
+# Spyder project settings
+.spyproject/
+.spyderproject/
+.spyproject/*
+.spyderproject/*
+*.spydata
+.spyderworkspace
+*.pkl
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Qt UI files
+*.ui
+*.qrc
+
+# Qt (PySide)
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*.crash
+*.pid
+
+# Editor-specific files
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ
+.idea/
+*.iml
+
+# Others
+*~
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*.h5
+*.dat
+*.prof
+*.m
+.mypy_cache/
