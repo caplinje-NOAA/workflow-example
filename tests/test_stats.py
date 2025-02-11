@@ -16,3 +16,5 @@ def test_median():
     expected = 162.1141260713036
     assert np.isclose(median,expected)
 
+
+print(type(logstats._is_odd(5)))
